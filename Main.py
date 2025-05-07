@@ -64,3 +64,5 @@ async def purge_all(client: Client, message: Message):
     print(f"✅ Purged {deleted} messages from chat {chat_id} as @{me.username}")
 
 print("✅ UserBot started...")
+
+app.run()
