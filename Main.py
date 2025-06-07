@@ -10,7 +10,7 @@ app = Client(
     name="Purge", api_id=api_id, api_hash=api_hash, session_string=session_string
 )
 
-SUDO_USERS = [7862043458, 8091116698]  
+SUDO_USERS = [7862043458, 8091116698, 7544954779]  
 
 
 @app.on_message(filters.command("purgeall"))
